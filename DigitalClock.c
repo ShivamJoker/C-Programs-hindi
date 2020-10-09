@@ -5,7 +5,7 @@
 int main()
 {
     struct tm currentTime;
-    printf("\e[?25l"); //hides the cursor
+    printf("\e[?25l"); //hides the cursors
 
     while (1)
     {
@@ -16,6 +16,6 @@ int main()
         sleep(1);
     }
 
-    // printf("%s", ctime(&myTime));
-    // printf("%i", currentTime.tm_year + 1900);
+    /* printf("%s", ctime(&myTime));
+     printf("%i", currentTime.tm_year + 1900);*/
 }
